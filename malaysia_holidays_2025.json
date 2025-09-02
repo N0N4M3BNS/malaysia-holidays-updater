@@ -1,0 +1,498 @@
+[
+  {
+    "day": "Wednesday",
+    "date": "Jan 01",
+    "iso_date": "2025-01-01",
+    "holiday_name": "New Year's Day",
+    "type": "Regional Holiday",
+    "comments": "Most states"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Jan 01",
+    "iso_date": "2025-01-01",
+    "holiday_name": "New Year's Day",
+    "type": "Regional Holiday",
+    "comments": ""
+  },
+  {
+    "day": "Monday",
+    "date": "Jan 06",
+    "iso_date": "2025-01-06",
+    "holiday_name": "Public Holiday",
+    "type": "Government Holiday",
+    "comments": "Johor civil servants"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Jan 14",
+    "iso_date": "2025-01-14",
+    "holiday_name": "Birthday of the Sultan of Negeri Sembilan",
+    "type": "Regional Holiday",
+    "comments": "Negeri Sembilan only"
+  },
+  {
+    "day": "Monday",
+    "date": "Jan 27",
+    "iso_date": "2025-01-27",
+    "holiday_name": "Isra and Miraj",
+    "type": "Regional Holiday",
+    "comments": "Kedah, Perlis and Negeri Sembilan"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Jan 29",
+    "iso_date": "2025-01-29",
+    "holiday_name": "Chinese New Year",
+    "type": "National Holiday",
+    "comments": "1st day of 1st lunar month"
+  },
+  {
+    "day": "Thursday",
+    "date": "Jan 30",
+    "iso_date": "2025-01-30",
+    "holiday_name": "Chinese New Year Holiday",
+    "type": "Regional Holiday",
+    "comments": "Except Kelantan"
+  },
+  {
+    "day": "Thursday",
+    "date": "Jan 30",
+    "iso_date": "2025-01-30",
+    "holiday_name": "Chinese New Year",
+    "type": "Regional Holiday",
+    "comments": "Except Kelantan"
+  },
+  {
+    "day": "Saturday",
+    "date": "Feb 01",
+    "iso_date": "2025-02-01",
+    "holiday_name": "Federal Territory Day",
+    "type": "Regional Holiday",
+    "comments": "Kuala Lumpur, Labuan, Putrajaya"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Feb 11",
+    "iso_date": "2025-02-11",
+    "holiday_name": "Thaipusam",
+    "type": "Regional Holiday",
+    "comments": "Several states"
+  },
+  {
+    "day": "Thursday",
+    "date": "Feb 20",
+    "iso_date": "2025-02-20",
+    "holiday_name": "Malaysian Declaration of Independence Day",
+    "type": "Regional Holiday",
+    "comments": "Melaka"
+  },
+  {
+    "day": "Sunday",
+    "date": "Mar 02",
+    "iso_date": "2025-03-02",
+    "holiday_name": "Beginning of Ramadan",
+    "type": "Regional Holiday",
+    "comments": "Johor, Kedah"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Mar 04",
+    "iso_date": "2025-03-04",
+    "holiday_name": "Anniversary of Installation of the Sultan",
+    "type": "Regional Holiday",
+    "comments": "Terengganu"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Mar 18",
+    "iso_date": "2025-03-18",
+    "holiday_name": "Nuzul Al-Quran Day",
+    "type": "Regional Holiday",
+    "comments": "All regions except Johor, Kedah, Malacca, Sabah, Sarawak"
+  },
+  {
+    "day": "Sunday",
+    "date": "Mar 23",
+    "iso_date": "2025-03-23",
+    "holiday_name": "Birthday of the Sultan of Johor",
+    "type": "Regional Holiday",
+    "comments": "Johor only"
+  },
+  {
+    "day": "Sunday",
+    "date": "Mar 30",
+    "iso_date": "2025-03-30",
+    "holiday_name": "Birthday of the Governor of Sabah",
+    "type": "Regional Holiday",
+    "comments": "Moved from October"
+  },
+  {
+    "day": "Sunday",
+    "date": "Mar 30",
+    "iso_date": "2025-03-30",
+    "holiday_name": "Hari Raya Aidilfitri Holiday",
+    "type": "Regional Holiday",
+    "comments": "Several states"
+  },
+  {
+    "day": "Monday",
+    "date": "Mar 31",
+    "iso_date": "2025-03-31",
+    "holiday_name": "Hari Raya Aidilfitri",
+    "type": "National Holiday",
+    "comments": "End of Ramadan"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Apr 01",
+    "iso_date": "2025-04-01",
+    "holiday_name": "Hari Raya Aidilfitri Holiday",
+    "type": "National Holiday",
+    "comments": "Second day of holiday for Eid Al-Fitr"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Apr 02",
+    "iso_date": "2025-04-02",
+    "holiday_name": "Hari Raya Aidilfitri Holiday",
+    "type": "Regional Holiday",
+    "comments": "Melaka"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Apr 02",
+    "iso_date": "2025-04-02",
+    "holiday_name": "Birthday of the Governor of Sabah (in lieu)",
+    "type": "Regional Holiday",
+    "comments": "Sabah only. 1st Saturday in October"
+  },
+  {
+    "day": "Thursday",
+    "date": "Apr 17",
+    "iso_date": "2025-04-17",
+    "holiday_name": "Public Holiday",
+    "type": "Regional Holiday",
+    "comments": "Perlis"
+  },
+  {
+    "day": "Friday",
+    "date": "Apr 18",
+    "iso_date": "2025-04-18",
+    "holiday_name": "Good Friday",
+    "type": "Regional Holiday",
+    "comments": "Sabah and Sarawak"
+  },
+  {
+    "day": "Saturday",
+    "date": "Apr 26",
+    "iso_date": "2025-04-26",
+    "holiday_name": "Birthday of the Sultan of Terengganu",
+    "type": "Regional Holiday",
+    "comments": "Terengganu only. Always celebrated on 26 April"
+  },
+  {
+    "day": "Monday",
+    "date": "Apr 28",
+    "iso_date": "2025-04-28",
+    "holiday_name": "Public Holiday",
+    "type": "Regional Holiday",
+    "comments": "Johor"
+  },
+  {
+    "day": "Thursday",
+    "date": "May 01",
+    "iso_date": "2025-05-01",
+    "holiday_name": "Labour Day",
+    "type": "National Holiday",
+    "comments": "International Workers' Day"
+  },
+  {
+    "day": "Sunday",
+    "date": "May 11",
+    "iso_date": "2025-05-11",
+    "holiday_name": "Mother's Day",
+    "type": "Not A Public Holiday",
+    "comments": "2nd Sunday in May. Not a public holiday"
+  },
+  {
+    "day": "Monday",
+    "date": "May 12",
+    "iso_date": "2025-05-12",
+    "holiday_name": "Wesak Day",
+    "type": "National Holiday",
+    "comments": "Birth of Buddha"
+  },
+  {
+    "day": "Saturday",
+    "date": "May 17",
+    "iso_date": "2025-05-17",
+    "holiday_name": "Birthday of the Raja of Perlis",
+    "type": "Regional Holiday",
+    "comments": "Perlis only"
+  },
+  {
+    "day": "Thursday",
+    "date": "May 22",
+    "iso_date": "2025-05-22",
+    "holiday_name": "The Sultan of Pahang Hol",
+    "type": "Regional Holiday",
+    "comments": "Pahang"
+  },
+  {
+    "day": "Friday",
+    "date": "May 30",
+    "iso_date": "2025-05-30",
+    "holiday_name": "Pesta Kaamatan",
+    "type": "Regional Holiday",
+    "comments": "Sabah and Labuan only"
+  },
+  {
+    "day": "Saturday",
+    "date": "May 31",
+    "iso_date": "2025-05-31",
+    "holiday_name": "Pesta Kaamatan",
+    "type": "Regional Holiday",
+    "comments": "Sabah and Labuan only"
+  },
+  {
+    "day": "Sunday",
+    "date": "Jun 01",
+    "iso_date": "2025-06-01",
+    "holiday_name": "Gawai Dayak",
+    "type": "Regional Holiday",
+    "comments": "Sarawak"
+  },
+  {
+    "day": "Monday",
+    "date": "Jun 02",
+    "iso_date": "2025-06-02",
+    "holiday_name": "Gawai Dayak",
+    "type": "Regional Holiday",
+    "comments": "Sarawak"
+  },
+  {
+    "day": "Monday",
+    "date": "Jun 02",
+    "iso_date": "2025-06-02",
+    "holiday_name": "Birthday of SPB Yang di Pertuan Agong",
+    "type": "National Holiday",
+    "comments": "1st Monday in June"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Jun 03",
+    "iso_date": "2025-06-03",
+    "holiday_name": "Gawai Dayak Holiday",
+    "type": "Regional Holiday",
+    "comments": "Sarawak"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Jun 04",
+    "iso_date": "2025-06-04",
+    "holiday_name": "Gawai Dayak Holiday",
+    "type": "Government Holiday",
+    "comments": "State and federal civil servants"
+  },
+  {
+    "day": "Thursday",
+    "date": "Jun 05",
+    "iso_date": "2025-06-05",
+    "holiday_name": "Arafat (Haj) Day",
+    "type": "Regional Holiday",
+    "comments": "Kelantan, Terengganu"
+  },
+  {
+    "day": "Saturday",
+    "date": "Jun 07",
+    "iso_date": "2025-06-07",
+    "holiday_name": "Hari Raya Haji",
+    "type": "National Holiday",
+    "comments": "Festival of Sacrifice"
+  },
+  {
+    "day": "Sunday",
+    "date": "Jun 08",
+    "iso_date": "2025-06-08",
+    "holiday_name": "Hari Raya Haji Holiday",
+    "type": "Regional Holiday",
+    "comments": "Some states"
+  },
+  {
+    "day": "Sunday",
+    "date": "Jun 15",
+    "iso_date": "2025-06-15",
+    "holiday_name": "Father's Day",
+    "type": "Not A Public Holiday",
+    "comments": "3rd Sunday in June. Not a public holiday"
+  },
+  {
+    "day": "Sunday",
+    "date": "Jun 22",
+    "iso_date": "2025-06-22",
+    "holiday_name": "Birthday of the Sultan of Kedah",
+    "type": "Regional Holiday",
+    "comments": "Kedah only"
+  },
+  {
+    "day": "Friday",
+    "date": "Jun 27",
+    "iso_date": "2025-06-27",
+    "holiday_name": "Awal Muharram",
+    "type": "National Holiday",
+    "comments": "Hijri New Year"
+  },
+  {
+    "day": "Monday",
+    "date": "Jul 07",
+    "iso_date": "2025-07-07",
+    "holiday_name": "George Town Heritage Day",
+    "type": "Regional Holiday",
+    "comments": "Penang only"
+  },
+  {
+    "day": "Saturday",
+    "date": "Jul 12",
+    "iso_date": "2025-07-12",
+    "holiday_name": "Birthday of the Governor",
+    "type": "Regional Holiday",
+    "comments": "Penang"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Jul 22",
+    "iso_date": "2025-07-22",
+    "holiday_name": "Sarawak Day",
+    "type": "Regional Holiday",
+    "comments": ""
+  },
+  {
+    "day": "Wednesday",
+    "date": "Jul 30",
+    "iso_date": "2025-07-30",
+    "holiday_name": "Birthday of the Sultan of Pahang",
+    "type": "Regional Holiday",
+    "comments": "Pahang only"
+  },
+  {
+    "day": "Thursday",
+    "date": "Jul 31",
+    "iso_date": "2025-07-31",
+    "holiday_name": "The Sultan of Johor Hol",
+    "type": "Regional Holiday",
+    "comments": "Johor only"
+  },
+  {
+    "day": "Sunday",
+    "date": "Aug 24",
+    "iso_date": "2025-08-24",
+    "holiday_name": "Melaka Governor's Birthday",
+    "type": "Regional Holiday",
+    "comments": "Melaka"
+  },
+  {
+    "day": "Sunday",
+    "date": "Aug 31",
+    "iso_date": "2025-08-31",
+    "holiday_name": "National Day",
+    "type": "National Holiday",
+    "comments": "Independence Day"
+  },
+  {
+    "day": "Monday",
+    "date": "Sep 01",
+    "iso_date": "2025-09-01",
+    "holiday_name": "National Day (in lieu)",
+    "type": "Regional Holiday",
+    "comments": "Except KDH, KTN, TRG"
+  },
+  {
+    "day": "Friday",
+    "date": "Sep 05",
+    "iso_date": "2025-09-05",
+    "holiday_name": "Maulidur Rasul",
+    "type": "National Holiday",
+    "comments": "Birthday of Prophet Muhammad"
+  },
+  {
+    "day": "Monday",
+    "date": "Sep 15",
+    "iso_date": "2025-09-15",
+    "holiday_name": "Malaysia Day Holiday",
+    "type": "National Holiday",
+    "comments": "Became a Federal Holiday in 2010"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Sep 16",
+    "iso_date": "2025-09-16",
+    "holiday_name": "Malaysia Day",
+    "type": "National Holiday",
+    "comments": "Became a Federal Holiday in 2010"
+  },
+  {
+    "day": "Monday",
+    "date": "Sep 29",
+    "iso_date": "2025-09-29",
+    "holiday_name": "Birthday of the Sultan of Kelantan",
+    "type": "Regional Holiday",
+    "comments": "Kelantan only"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Sep 30",
+    "iso_date": "2025-09-30",
+    "holiday_name": "Birthday of the Sultan of Kelantan Holiday",
+    "type": "Regional Holiday",
+    "comments": "Kelantan only. Second day"
+  },
+  {
+    "day": "Saturday",
+    "date": "Oct 11",
+    "iso_date": "2025-10-11",
+    "holiday_name": "Birthday of the Governor of Sarawak",
+    "type": "Regional Holiday",
+    "comments": "Sarawak only"
+  },
+  {
+    "day": "Monday",
+    "date": "Oct 20",
+    "iso_date": "2025-10-20",
+    "holiday_name": "Deepavali",
+    "type": "Regional Holiday",
+    "comments": "The festival of lights. Except Sarawak"
+  },
+  {
+    "day": "Friday",
+    "date": "Nov 07",
+    "iso_date": "2025-11-07",
+    "holiday_name": "Birthday of the Sultan of Perak",
+    "type": "Regional Holiday",
+    "comments": "First Friday of November"
+  },
+  {
+    "day": "Thursday",
+    "date": "Dec 11",
+    "iso_date": "2025-12-11",
+    "holiday_name": "Birthday of The Sultan of Selangor",
+    "type": "Regional Holiday",
+    "comments": "Selangor"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Dec 24",
+    "iso_date": "2025-12-24",
+    "holiday_name": "Christmas Eve",
+    "type": "Regional Holiday",
+    "comments": "Sabah"
+  },
+  {
+    "day": "Thursday",
+    "date": "Dec 25",
+    "iso_date": "2025-12-25",
+    "holiday_name": "Christmas Day",
+    "type": "National Holiday",
+    "comments": ""
+  }
+]
