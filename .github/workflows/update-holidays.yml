@@ -1,5 +1,8 @@
 name: "Update Malaysia Holidays"
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # 1st day of every month at 00:15 UTC
