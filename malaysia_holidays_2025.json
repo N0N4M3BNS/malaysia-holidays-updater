@@ -117,7 +117,7 @@
     "iso_date": "2025-03-23",
     "holiday_name": "Birthday of the Sultan of Johor",
     "type": "Regional Holiday",
-    "comments": "Johor only"
+    "comments": "Johor"
   },
   {
     "day": "Sunday",
@@ -165,7 +165,7 @@
     "iso_date": "2025-04-02",
     "holiday_name": "Birthday of the Governor of Sabah (in lieu)",
     "type": "Regional Holiday",
-    "comments": "Sabah only. 1st Saturday in October"
+    "comments": "Sabah. 1st Saturday in October"
   },
   {
     "day": "Thursday",
@@ -229,7 +229,7 @@
     "iso_date": "2025-05-17",
     "holiday_name": "Birthday of the Raja of Perlis",
     "type": "Regional Holiday",
-    "comments": "Perlis only"
+    "comments": "Perlis"
   },
   {
     "day": "Thursday",
@@ -245,7 +245,7 @@
     "iso_date": "2025-05-30",
     "holiday_name": "Pesta Kaamatan",
     "type": "Regional Holiday",
-    "comments": "Sabah and Labuan only"
+    "comments": "Sabah, Labuan"
   },
   {
     "day": "Saturday",
@@ -253,7 +253,7 @@
     "iso_date": "2025-05-31",
     "holiday_name": "Pesta Kaamatan",
     "type": "Regional Holiday",
-    "comments": "Sabah and Labuan only"
+    "comments": "Sabah, Labuan"
   },
   {
     "day": "Sunday",
@@ -333,7 +333,7 @@
     "iso_date": "2025-06-22",
     "holiday_name": "Birthday of the Sultan of Kedah",
     "type": "Regional Holiday",
-    "comments": "Kedah only"
+    "comments": "Kedah"
   },
   {
     "day": "Friday",
@@ -349,7 +349,7 @@
     "iso_date": "2025-07-07",
     "holiday_name": "George Town Heritage Day",
     "type": "Regional Holiday",
-    "comments": "Penang only"
+    "comments": "Penang"
   },
   {
     "day": "Saturday",
@@ -373,7 +373,7 @@
     "iso_date": "2025-07-30",
     "holiday_name": "Birthday of the Sultan of Pahang",
     "type": "Regional Holiday",
-    "comments": "Pahang only"
+    "comments": "Pahang"
   },
   {
     "day": "Thursday",
@@ -381,7 +381,7 @@
     "iso_date": "2025-07-31",
     "holiday_name": "The Sultan of Johor Hol",
     "type": "Regional Holiday",
-    "comments": "Johor only"
+    "comments": "Johor"
   },
   {
     "day": "Sunday",
@@ -437,7 +437,7 @@
     "iso_date": "2025-09-29",
     "holiday_name": "Birthday of the Sultan of Kelantan",
     "type": "Regional Holiday",
-    "comments": "Kelantan only"
+    "comments": "Kelantan"
   },
   {
     "day": "Tuesday",
@@ -453,7 +453,7 @@
     "iso_date": "2025-10-11",
     "holiday_name": "Birthday of the Governor of Sarawak",
     "type": "Regional Holiday",
-    "comments": "Sarawak only"
+    "comments": "Sarawak"
   },
   {
     "day": "Monday",
