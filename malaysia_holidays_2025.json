@@ -165,7 +165,7 @@
     "iso_date": "2025-04-02",
     "holiday_name": "Birthday of the Governor of Sabah (in lieu)",
     "type": "Regional Holiday",
-    "comments": "Sabah. 1st Saturday in October"
+    "comments": "Sabah"
   },
   {
     "day": "Thursday",
@@ -470,6 +470,14 @@
     "holiday_name": "Birthday of the Sultan of Perak",
     "type": "Regional Holiday",
     "comments": "First Friday of November"
+  },
+  {
+    "day": "Saturday",
+    "date": "Nov 29",
+    "iso_date": "2025-11-29",
+    "holiday_name": "Polling Day",
+    "type": "Regional Holiday",
+    "comments": "Sabah"
   },
   {
     "day": "Thursday",
