@@ -1,0 +1,466 @@
+[
+  {
+    "day": "Thursday",
+    "date": "Jan 01",
+    "iso_date": "2026-01-01",
+    "holiday_name": "New Year's Day",
+    "type": "Regional Holiday",
+    "comments": "Most states"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Jan 14",
+    "iso_date": "2026-01-14",
+    "holiday_name": "Birthday of the Sultan of Negeri Sembilan",
+    "type": "Regional Holiday",
+    "comments": "Negeri Sembilan only"
+  },
+  {
+    "day": "Saturday",
+    "date": "Jan 17",
+    "iso_date": "2026-01-17",
+    "holiday_name": "Isra and Miraj",
+    "type": "Regional Holiday",
+    "comments": "Several states"
+  },
+  {
+    "day": "Sunday",
+    "date": "Jan 18",
+    "iso_date": "2026-01-18",
+    "holiday_name": "Isra and Miraj (in lieu)",
+    "type": "Regional Holiday",
+    "comments": "Several states"
+  },
+  {
+    "day": "Sunday",
+    "date": "Feb 01",
+    "iso_date": "2026-02-01",
+    "holiday_name": "Thaipusam",
+    "type": "Regional Holiday",
+    "comments": "Several states"
+  },
+  {
+    "day": "Monday",
+    "date": "Feb 02",
+    "iso_date": "2026-02-02",
+    "holiday_name": "Federal Territory Day",
+    "type": "Regional Holiday",
+    "comments": "Kuala Lumpur, Labuan, Putrajaya"
+  },
+  {
+    "day": "Monday",
+    "date": "Feb 02",
+    "iso_date": "2026-02-02",
+    "holiday_name": "Thaipusam (in lieu)",
+    "type": "Regional Holiday",
+    "comments": "Several states"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Feb 17",
+    "iso_date": "2026-02-17",
+    "holiday_name": "Chinese New Year",
+    "type": "National Holiday",
+    "comments": "1st day of 1st lunar month"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Feb 18",
+    "iso_date": "2026-02-18",
+    "holiday_name": "Chinese New Year Holiday",
+    "type": "National Holiday",
+    "comments": "2nd day of 1st lunar month"
+  },
+  {
+    "day": "Thursday",
+    "date": "Feb 19",
+    "iso_date": "2026-02-19",
+    "holiday_name": "Beginning of Ramadan",
+    "type": "Regional Holiday",
+    "comments": "Johor, Kedah"
+  },
+  {
+    "day": "Friday",
+    "date": "Feb 20",
+    "iso_date": "2026-02-20",
+    "holiday_name": "Malaysian Declaration of Independence Day",
+    "type": "Regional Holiday",
+    "comments": "Melaka"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Mar 04",
+    "iso_date": "2026-03-04",
+    "holiday_name": "Anniversary of Installation of the Sultan",
+    "type": "Regional Holiday",
+    "comments": "Terengganu"
+  },
+  {
+    "day": "Saturday",
+    "date": "Mar 07",
+    "iso_date": "2026-03-07",
+    "holiday_name": "Nuzul Al-Quran Day",
+    "type": "Regional Holiday",
+    "comments": "Most states"
+  },
+  {
+    "day": "Sunday",
+    "date": "Mar 08",
+    "iso_date": "2026-03-08",
+    "holiday_name": "Nuzul Al-Quran Day (in lieu)",
+    "type": "Regional Holiday",
+    "comments": "KTN, TRG"
+  },
+  {
+    "day": "Saturday",
+    "date": "Mar 21",
+    "iso_date": "2026-03-21",
+    "holiday_name": "Hari Raya Aidilfitri",
+    "type": "National Holiday",
+    "comments": "End of Ramadan"
+  },
+  {
+    "day": "Sunday",
+    "date": "Mar 22",
+    "iso_date": "2026-03-22",
+    "holiday_name": "Hari Raya Aidilfitri Holiday",
+    "type": "National Holiday",
+    "comments": "Second day of holiday for Eid Al-Fitr"
+  },
+  {
+    "day": "Monday",
+    "date": "Mar 23",
+    "iso_date": "2026-03-23",
+    "holiday_name": "Birthday of the Sultan of Johor",
+    "type": "Regional Holiday",
+    "comments": "Johor"
+  },
+  {
+    "day": "Monday",
+    "date": "Mar 23",
+    "iso_date": "2026-03-23",
+    "holiday_name": "Hari Raya Aidilfitri Holiday",
+    "type": "Regional Holiday",
+    "comments": "Except Kedah"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Mar 24",
+    "iso_date": "2026-03-24",
+    "holiday_name": "Hari Raya Aidilfitri Holiday",
+    "type": "Regional Holiday",
+    "comments": "Melaka"
+  },
+  {
+    "day": "Friday",
+    "date": "Apr 03",
+    "iso_date": "2026-04-03",
+    "holiday_name": "Good Friday",
+    "type": "Regional Holiday",
+    "comments": "Sabah and Sarawak"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Apr 15",
+    "iso_date": "2026-04-15",
+    "holiday_name": "Declaration of Malacca as a Historical City",
+    "type": "Regional Holiday",
+    "comments": "Malacca"
+  },
+  {
+    "day": "Sunday",
+    "date": "Apr 26",
+    "iso_date": "2026-04-26",
+    "holiday_name": "Birthday of the Sultan of Terengganu",
+    "type": "Regional Holiday",
+    "comments": "Terengganu. Always celebrated on 26 April"
+  },
+  {
+    "day": "Friday",
+    "date": "May 01",
+    "iso_date": "2026-05-01",
+    "holiday_name": "Labour Day",
+    "type": "National Holiday",
+    "comments": "International Workers' Day"
+  },
+  {
+    "day": "Sunday",
+    "date": "May 10",
+    "iso_date": "2026-05-10",
+    "holiday_name": "Mother's Day",
+    "type": "Not A Public Holiday",
+    "comments": "2nd Sunday in May. Not a public holiday"
+  },
+  {
+    "day": "Sunday",
+    "date": "May 17",
+    "iso_date": "2026-05-17",
+    "holiday_name": "Birthday of the Raja of Perlis",
+    "type": "Regional Holiday",
+    "comments": "Perlis"
+  },
+  {
+    "day": "Monday",
+    "date": "May 18",
+    "iso_date": "2026-05-18",
+    "holiday_name": "Birthday of the Raja of Perlis (in lieu)",
+    "type": "Regional Holiday",
+    "comments": "Perlis"
+  },
+  {
+    "day": "Friday",
+    "date": "May 22",
+    "iso_date": "2026-05-22",
+    "holiday_name": "The Sultan of Pahang Hol",
+    "type": "Regional Holiday",
+    "comments": "Pahang"
+  },
+  {
+    "day": "Tuesday",
+    "date": "May 26",
+    "iso_date": "2026-05-26",
+    "holiday_name": "Arafat (Haj) Day",
+    "type": "Regional Holiday",
+    "comments": "Kelantan, Terengganu"
+  },
+  {
+    "day": "Wednesday",
+    "date": "May 27",
+    "iso_date": "2026-05-27",
+    "holiday_name": "Hari Raya Haji",
+    "type": "National Holiday",
+    "comments": "Festival of Sacrifice"
+  },
+  {
+    "day": "Thursday",
+    "date": "May 28",
+    "iso_date": "2026-05-28",
+    "holiday_name": "Hari Raya Haji Holiday",
+    "type": "Regional Holiday",
+    "comments": "Some states"
+  },
+  {
+    "day": "Saturday",
+    "date": "May 30",
+    "iso_date": "2026-05-30",
+    "holiday_name": "Pesta Kaamatan",
+    "type": "Regional Holiday",
+    "comments": "Sabah, Labuan"
+  },
+  {
+    "day": "Saturday",
+    "date": "May 30",
+    "iso_date": "2026-05-30",
+    "holiday_name": "Birthday of the Governor of Sabah",
+    "type": "Regional Holiday",
+    "comments": "Sabah"
+  },
+  {
+    "day": "Sunday",
+    "date": "May 31",
+    "iso_date": "2026-05-31",
+    "holiday_name": "Wesak Day",
+    "type": "National Holiday",
+    "comments": "Birth of Buddha"
+  },
+  {
+    "day": "Sunday",
+    "date": "May 31",
+    "iso_date": "2026-05-31",
+    "holiday_name": "Pesta Kaamatan",
+    "type": "Regional Holiday",
+    "comments": "Sabah, Labuan"
+  },
+  {
+    "day": "Monday",
+    "date": "Jun 01",
+    "iso_date": "2026-06-01",
+    "holiday_name": "Birthday of SPB Yang di Pertuan Agong",
+    "type": "National Holiday",
+    "comments": "1st Monday in June"
+  },
+  {
+    "day": "Monday",
+    "date": "Jun 01",
+    "iso_date": "2026-06-01",
+    "holiday_name": "Gawai Dayak",
+    "type": "Regional Holiday",
+    "comments": "Sarawak"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Jun 02",
+    "iso_date": "2026-06-02",
+    "holiday_name": "Gawai Dayak",
+    "type": "Regional Holiday",
+    "comments": "Sarawak"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Jun 17",
+    "iso_date": "2026-06-17",
+    "holiday_name": "Awal Muharram",
+    "type": "National Holiday",
+    "comments": "Hijri New Year"
+  },
+  {
+    "day": "Sunday",
+    "date": "Jun 21",
+    "iso_date": "2026-06-21",
+    "holiday_name": "Birthday of the Sultan of Kedah",
+    "type": "Regional Holiday",
+    "comments": "Kedah"
+  },
+  {
+    "day": "Sunday",
+    "date": "Jun 21",
+    "iso_date": "2026-06-21",
+    "holiday_name": "Father's Day",
+    "type": "Not A Public Holiday",
+    "comments": "3rd Sunday in June. Not a public holiday"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Jul 07",
+    "iso_date": "2026-07-07",
+    "holiday_name": "George Town Heritage Day",
+    "type": "Regional Holiday",
+    "comments": "Penang"
+  },
+  {
+    "day": "Saturday",
+    "date": "Jul 11",
+    "iso_date": "2026-07-11",
+    "holiday_name": "Birthday of the Governor",
+    "type": "Regional Holiday",
+    "comments": "Penang"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Jul 21",
+    "iso_date": "2026-07-21",
+    "holiday_name": "The Sultan of Johor Hol",
+    "type": "Regional Holiday",
+    "comments": "Johor"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Jul 22",
+    "iso_date": "2026-07-22",
+    "holiday_name": "Sarawak Day",
+    "type": "Regional Holiday",
+    "comments": ""
+  },
+  {
+    "day": "Friday",
+    "date": "Jul 31",
+    "iso_date": "2026-07-31",
+    "holiday_name": "Birthday of the Sultan of Pahang",
+    "type": "Regional Holiday",
+    "comments": "Pahang"
+  },
+  {
+    "day": "Monday",
+    "date": "Aug 24",
+    "iso_date": "2026-08-24",
+    "holiday_name": "Melaka Governor's Birthday",
+    "type": "Regional Holiday",
+    "comments": "Melaka"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Aug 25",
+    "iso_date": "2026-08-25",
+    "holiday_name": "Maulidur Rasul",
+    "type": "National Holiday",
+    "comments": "Birthday of Prophet Muhammad"
+  },
+  {
+    "day": "Monday",
+    "date": "Aug 31",
+    "iso_date": "2026-08-31",
+    "holiday_name": "National Day",
+    "type": "National Holiday",
+    "comments": "Independence Day"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Sep 16",
+    "iso_date": "2026-09-16",
+    "holiday_name": "Malaysia Day",
+    "type": "National Holiday",
+    "comments": "Became a Federal Holiday in 2010"
+  },
+  {
+    "day": "Tuesday",
+    "date": "Sep 29",
+    "iso_date": "2026-09-29",
+    "holiday_name": "Birthday of the Sultan of Kelantan",
+    "type": "Regional Holiday",
+    "comments": "Kelantan"
+  },
+  {
+    "day": "Wednesday",
+    "date": "Sep 30",
+    "iso_date": "2026-09-30",
+    "holiday_name": "Birthday of the Sultan of Kelantan Holiday",
+    "type": "Regional Holiday",
+    "comments": "Kelantan. Second day"
+  },
+  {
+    "day": "Saturday",
+    "date": "Oct 10",
+    "iso_date": "2026-10-10",
+    "holiday_name": "Birthday of the Governor of Sarawak",
+    "type": "Regional Holiday",
+    "comments": "Sarawak"
+  },
+  {
+    "day": "Friday",
+    "date": "Nov 06",
+    "iso_date": "2026-11-06",
+    "holiday_name": "Birthday of the Sultan of Perak",
+    "type": "Regional Holiday",
+    "comments": "First Friday of November"
+  },
+  {
+    "day": "Sunday",
+    "date": "Nov 08",
+    "iso_date": "2026-11-08",
+    "holiday_name": "Deepavali",
+    "type": "Regional Holiday",
+    "comments": "The festival of lights. Except Sarawak"
+  },
+  {
+    "day": "Monday",
+    "date": "Nov 09",
+    "iso_date": "2026-11-09",
+    "holiday_name": "Deepavali (in lieu)",
+    "type": "Regional Holiday",
+    "comments": "Most states"
+  },
+  {
+    "day": "Friday",
+    "date": "Dec 11",
+    "iso_date": "2026-12-11",
+    "holiday_name": "Birthday of The Sultan of Selangor",
+    "type": "Regional Holiday",
+    "comments": "Selangor"
+  },
+  {
+    "day": "Thursday",
+    "date": "Dec 24",
+    "iso_date": "2026-12-24",
+    "holiday_name": "Christmas Eve",
+    "type": "Regional Holiday",
+    "comments": "Sabah"
+  },
+  {
+    "day": "Friday",
+    "date": "Dec 25",
+    "iso_date": "2026-12-25",
+    "holiday_name": "Christmas Day",
+    "type": "National Holiday",
+    "comments": ""
+  }
+]
