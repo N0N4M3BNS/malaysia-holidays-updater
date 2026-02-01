@@ -57,6 +57,14 @@
   },
   {
     "day": "Tuesday",
+    "date": "Feb 03",
+    "iso_date": "2026-02-03",
+    "holiday_name": "Thaipusam (in lieu)",
+    "type": "Regional Holiday",
+    "comments": "Federal territories"
+  },
+  {
+    "day": "Tuesday",
     "date": "Feb 17",
     "iso_date": "2026-02-17",
     "holiday_name": "Chinese New Year",
@@ -78,6 +86,14 @@
     "holiday_name": "Beginning of Ramadan",
     "type": "Regional Holiday",
     "comments": "Johor, Kedah"
+  },
+  {
+    "day": "Thursday",
+    "date": "Feb 19",
+    "iso_date": "2026-02-19",
+    "holiday_name": "Beginning of Ramadan",
+    "type": "Government Holiday",
+    "comments": "Malaka, civil servants"
   },
   {
     "day": "Friday",
