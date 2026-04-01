@@ -128,6 +128,22 @@
     "comments": "KTN, TRG"
   },
   {
+    "day": "Thursday",
+    "date": "Mar 19",
+    "iso_date": "2026-03-19",
+    "holiday_name": "Hari Raya Aidilfitri Holiday",
+    "type": "Regional Holiday",
+    "comments": "Kelantan, Terengganu"
+  },
+  {
+    "day": "Friday",
+    "date": "Mar 20",
+    "iso_date": "2026-03-20",
+    "holiday_name": "Hari Raya Aidilfitri Holiday",
+    "type": "National Holiday",
+    "comments": ""
+  },
+  {
     "day": "Saturday",
     "date": "Mar 21",
     "iso_date": "2026-03-21",
@@ -141,23 +157,23 @@
     "iso_date": "2026-03-22",
     "holiday_name": "Hari Raya Aidilfitri Holiday",
     "type": "National Holiday",
-    "comments": "Second day of holiday for Eid Al-Fitr"
-  },
-  {
-    "day": "Monday",
-    "date": "Mar 23",
-    "iso_date": "2026-03-23",
-    "holiday_name": "Birthday of the Sultan of Johor",
-    "type": "Regional Holiday",
-    "comments": "Johor"
+    "comments": ""
   },
   {
     "day": "Monday",
     "date": "Mar 23",
     "iso_date": "2026-03-23",
     "holiday_name": "Hari Raya Aidilfitri Holiday",
+    "type": "National Holiday",
+    "comments": ""
+  },
+  {
+    "day": "Tuesday",
+    "date": "Mar 24",
+    "iso_date": "2026-03-24",
+    "holiday_name": "Birthday of the Sultan of Johor (in lieu)",
     "type": "Regional Holiday",
-    "comments": "Except Kedah"
+    "comments": "Johor"
   },
   {
     "day": "Tuesday",
