@@ -6,26 +6,52 @@ An automated Python scraper that fetches and updates Malaysia's public holidays 
 
 ## 📊 Data Format
 
-The scraper generates JSON files containing comprehensive holiday information:
+The scraper generates JSON files with structured holiday data designed for developer consumption:
 
 ```json
-[
-  {
-    "day": "Wednesday",
-    "date": "Jan 01",
-    "iso_date": "2025-01-01",
-    "holiday_name": "New Year's Day",
-    "type": "Regional Holiday",
-    "comments": "Most states"
-  }
-]
+{
+  "year": 2025,
+  "source": "officeholidays.com",
+  "holidays": [
+    {
+      "date": "2025-01-29",
+      "holiday_name": "Chinese New Year",
+      "type": "National",
+      "description": "1st day of 1st lunar month"
+    },
+    {
+      "date": "2025-01-30",
+      "holiday_name": "Chinese New Year Holiday",
+      "type": "Regional",
+      "states": ["Johor", "Kedah", "Melaka", "..."]
+    },
+    {
+      "date": "2025-04-18",
+      "holiday_name": "Good Friday",
+      "type": "Regional",
+      "states": ["Sabah", "Sarawak"]
+    }
+  ]
+}
 ```
+
+### Field Reference
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `date` | string | ISO 8601 date (`YYYY-MM-DD`), `null` if unparseable |
+| `holiday_name` | string | Name of the holiday |
+| `type` | string | `"National"`, `"Regional"`, or `"Government"` |
+| `states` | array\|null | List of observing states/territories (Regional/Government only; omitted for National) |
+| `description` | string | Additional context (only present when meaningful) |
+
+> **Note**: Non-public holidays (e.g., Mother's Day, Father's Day) are filtered out. Duplicate entries from the source are merged.
 
 ## 🚀 Features
 
 - **Automated Updates**: Runs monthly via GitHub Actions
 - **Comprehensive Coverage**: Includes national, regional, and state-specific holidays
-- **Clean Data**: Standardized JSON format with ISO dates
+- **Clean Data**: Structured JSON with ISO dates, parsed state lists, deduplicated entries
 - **Manual Trigger**: Can be run on-demand from GitHub Actions
 - **Zero Maintenance**: Fully automated with intelligent change detection
 
@@ -105,13 +131,16 @@ malaysia-holidays-updater/
 
 1. **HTML Parsing**: Extracts table rows from holiday listings
 2. **Date Standardization**: Converts month-day strings to ISO format
-3. **Data Cleaning**: Strips whitespace and standardizes field names
-4. **JSON Export**: Saves as pretty-printed UTF-8 JSON
+3. **Filtering**: Removes "Not A Public Holiday" entries (e.g., Mother's Day)
+4. **Deduplication**: Merges entries with the same date and name, combining state info
+5. **State Parsing**: Extracts structured state lists from free-text comments (handles "Except X", "X and Y", abbreviations like KDH/KTN/TRG)
+6. **Description Extraction**: Preserves meaningful context (e.g., "End of Ramadan") while omitting state-only comments
+7. **JSON Export**: Saves as pretty-printed UTF-8 JSON
 
 ### Error Handling
 
 - **Graceful Failure**: Continues processing even with malformed dates
-- **ISO Date Fallback**: Sets `iso_date: null` for unparseable dates
+- **ISO Date Fallback**: Sets `date: null` for unparseable dates
 - **Row Validation**: Skips rows with insufficient data
 
 ## 📈 Usage Examples
@@ -123,7 +152,7 @@ malaysia-holidays-updater/
 python -c "from scraper import fetch; fetch(2024)"
 
 # Check current year data
-python scraper.py && cat malaysia_holidays_2025.json | jq '.[] | select(.type=="National Holiday")'
+python scraper.py && cat malaysia_holidays_2025.json | jq '.holidays[] | select(.type=="National")'
 ```
 
 ### API Integration
@@ -138,7 +167,7 @@ response = requests.get(url)
 holidays = response.json()
 
 # Filter national holidays
-national_holidays = [h for h in holidays if h['type'] == 'National Holiday']
+national_holidays = [h for h in holidays['holidays'] if h['type'] == 'National']
 ```
 
 ## 🤝 Contributing
