@@ -1,0 +1,467 @@
+{
+  "year": 2026,
+  "sat_sun_states": [
+    "Johor",
+    "Kuala Lumpur",
+    "Labuan",
+    "Melaka",
+    "Negeri Sembilan",
+    "Pahang",
+    "Penang",
+    "Perak",
+    "Perlis",
+    "Putrajaya",
+    "Sabah",
+    "Sarawak",
+    "Selangor"
+  ],
+  "fri_sat_states": [
+    "Kedah",
+    "Kelantan",
+    "Terengganu"
+  ],
+  "sat_sun": [
+    {
+      "start_date": "2026-01-31",
+      "end_date": "2026-02-02",
+      "length_days": 3,
+      "holiday_name": "Thaipusam + Thaipusam (in lieu)",
+      "states": [
+        "Johor",
+        "Kedah",
+        "Kuala Lumpur",
+        "Negeri Sembilan",
+        "Penang",
+        "Perak",
+        "Putrajaya",
+        "Selangor"
+      ]
+    },
+    {
+      "start_date": "2026-02-20",
+      "end_date": "2026-02-22",
+      "length_days": 3,
+      "holiday_name": "Malaysian Declaration of Independence Day",
+      "states": [
+        "Melaka"
+      ]
+    },
+    {
+      "start_date": "2026-03-20",
+      "end_date": "2026-03-22",
+      "length_days": 3,
+      "holiday_name": "Hari Raya Aidilfitri Holiday",
+      "states": [
+        "Johor",
+        "Kedah",
+        "Kelantan",
+        "Melaka",
+        "Negeri Sembilan",
+        "Pahang",
+        "Perak",
+        "Perlis",
+        "Penang",
+        "Sabah",
+        "Sarawak",
+        "Selangor",
+        "Terengganu",
+        "Kuala Lumpur",
+        "Labuan",
+        "Putrajaya"
+      ]
+    },
+    {
+      "start_date": "2026-03-21",
+      "end_date": "2026-03-23",
+      "length_days": 3,
+      "holiday_name": "Hari Raya Aidilfitri + Hari Raya Aidilfitri Holiday + Hari Raya Aidilfitri Holiday",
+      "states": [
+        "Johor",
+        "Kedah",
+        "Kelantan",
+        "Melaka",
+        "Negeri Sembilan",
+        "Pahang",
+        "Perak",
+        "Perlis",
+        "Penang",
+        "Sabah",
+        "Sarawak",
+        "Selangor",
+        "Terengganu",
+        "Kuala Lumpur",
+        "Labuan",
+        "Putrajaya"
+      ]
+    },
+    {
+      "start_date": "2026-04-03",
+      "end_date": "2026-04-05",
+      "length_days": 3,
+      "holiday_name": "Good Friday",
+      "states": [
+        "Sabah",
+        "Sarawak"
+      ]
+    },
+    {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-03",
+      "length_days": 3,
+      "holiday_name": "Labour Day",
+      "states": [
+        "Johor",
+        "Kedah",
+        "Kelantan",
+        "Melaka",
+        "Negeri Sembilan",
+        "Pahang",
+        "Perak",
+        "Perlis",
+        "Penang",
+        "Sabah",
+        "Sarawak",
+        "Selangor",
+        "Terengganu",
+        "Kuala Lumpur",
+        "Labuan",
+        "Putrajaya"
+      ]
+    },
+    {
+      "start_date": "2026-05-16",
+      "end_date": "2026-05-18",
+      "length_days": 3,
+      "holiday_name": "Birthday of the Raja of Perlis + Birthday of the Raja of Perlis (in lieu)",
+      "states": [
+        "Perlis"
+      ]
+    },
+    {
+      "start_date": "2026-05-22",
+      "end_date": "2026-05-24",
+      "length_days": 3,
+      "holiday_name": "The Sultan of Pahang Hol",
+      "states": [
+        "Pahang"
+      ]
+    },
+    {
+      "start_date": "2026-05-30",
+      "end_date": "2026-06-01",
+      "length_days": 3,
+      "holiday_name": "Birthday of the Governor of Sabah + Pesta Kaamatan + Gawai Dayak",
+      "states": [
+        "Sabah"
+      ]
+    },
+    {
+      "start_date": "2026-07-31",
+      "end_date": "2026-08-02",
+      "length_days": 3,
+      "holiday_name": "Birthday of the Sultan of Pahang",
+      "states": [
+        "Pahang"
+      ]
+    },
+    {
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-24",
+      "length_days": 3,
+      "holiday_name": "Melaka Governor's Birthday",
+      "states": [
+        "Melaka"
+      ]
+    },
+    {
+      "start_date": "2026-08-29",
+      "end_date": "2026-08-31",
+      "length_days": 3,
+      "holiday_name": "National Day",
+      "states": [
+        "Johor",
+        "Kedah",
+        "Kelantan",
+        "Melaka",
+        "Negeri Sembilan",
+        "Pahang",
+        "Perak",
+        "Perlis",
+        "Penang",
+        "Sabah",
+        "Sarawak",
+        "Selangor",
+        "Terengganu",
+        "Kuala Lumpur",
+        "Labuan",
+        "Putrajaya"
+      ]
+    },
+    {
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-08",
+      "length_days": 3,
+      "holiday_name": "Birthday of the Sultan of Perak",
+      "states": [
+        "Perak"
+      ]
+    },
+    {
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-09",
+      "length_days": 3,
+      "holiday_name": "Deepavali + Deepavali (in lieu)",
+      "states": [
+        "Johor",
+        "Kedah",
+        "Kelantan",
+        "Kuala Lumpur",
+        "Labuan",
+        "Melaka",
+        "Negeri Sembilan",
+        "Pahang",
+        "Penang",
+        "Perak",
+        "Perlis",
+        "Putrajaya",
+        "Sabah",
+        "Selangor",
+        "Terengganu"
+      ]
+    },
+    {
+      "start_date": "2026-12-11",
+      "end_date": "2026-12-13",
+      "length_days": 3,
+      "holiday_name": "Birthday of The Sultan of Selangor",
+      "states": [
+        "Selangor"
+      ]
+    },
+    {
+      "start_date": "2026-12-25",
+      "end_date": "2026-12-27",
+      "length_days": 3,
+      "holiday_name": "Christmas Day",
+      "states": [
+        "Johor",
+        "Kedah",
+        "Kelantan",
+        "Melaka",
+        "Negeri Sembilan",
+        "Pahang",
+        "Perak",
+        "Perlis",
+        "Penang",
+        "Sabah",
+        "Sarawak",
+        "Selangor",
+        "Terengganu",
+        "Kuala Lumpur",
+        "Labuan",
+        "Putrajaya"
+      ]
+    }
+  ],
+  "fri_sat": [
+    {
+      "start_date": "2026-01-01",
+      "end_date": "2026-01-03",
+      "length_days": 3,
+      "holiday_name": "New Year's Day",
+      "states": [
+        "Kuala Lumpur",
+        "Labuan",
+        "Melaka",
+        "Negeri Sembilan",
+        "Pahang",
+        "Penang",
+        "Perak",
+        "Putrajaya",
+        "Sabah",
+        "Sarawak",
+        "Selangor"
+      ]
+    },
+    {
+      "start_date": "2026-01-16",
+      "end_date": "2026-01-18",
+      "length_days": 3,
+      "holiday_name": "Isra and Miraj + Isra and Miraj (in lieu)",
+      "states": [
+        "Kedah",
+        "Negeri Sembilan",
+        "Perlis",
+        "Terengganu"
+      ]
+    },
+    {
+      "start_date": "2026-01-30",
+      "end_date": "2026-02-01",
+      "length_days": 3,
+      "holiday_name": "Thaipusam",
+      "states": [
+        "Johor",
+        "Kedah",
+        "Kuala Lumpur",
+        "Negeri Sembilan",
+        "Penang",
+        "Perak",
+        "Putrajaya",
+        "Selangor"
+      ]
+    },
+    {
+      "start_date": "2026-02-19",
+      "end_date": "2026-02-21",
+      "length_days": 3,
+      "holiday_name": "Beginning of Ramadan",
+      "states": [
+        "Johor",
+        "Kedah",
+        "Melaka"
+      ]
+    },
+    {
+      "start_date": "2026-03-06",
+      "end_date": "2026-03-08",
+      "length_days": 3,
+      "holiday_name": "Nuzul Al-Quran Day + Nuzul Al-Quran Day (in lieu)",
+      "states": [
+        "Kelantan",
+        "Kuala Lumpur",
+        "Labuan",
+        "Pahang",
+        "Penang",
+        "Perak",
+        "Perlis",
+        "Putrajaya",
+        "Selangor",
+        "Terengganu"
+      ]
+    },
+    {
+      "start_date": "2026-03-19",
+      "end_date": "2026-03-21",
+      "length_days": 3,
+      "holiday_name": "Hari Raya Aidilfitri Holiday",
+      "states": [
+        "Kelantan",
+        "Terengganu"
+      ]
+    },
+    {
+      "start_date": "2026-03-20",
+      "end_date": "2026-03-22",
+      "length_days": 3,
+      "holiday_name": "Hari Raya Aidilfitri + Hari Raya Aidilfitri Holiday",
+      "states": [
+        "Johor",
+        "Kedah",
+        "Kelantan",
+        "Melaka",
+        "Negeri Sembilan",
+        "Pahang",
+        "Perak",
+        "Perlis",
+        "Penang",
+        "Sabah",
+        "Sarawak",
+        "Selangor",
+        "Terengganu",
+        "Kuala Lumpur",
+        "Labuan",
+        "Putrajaya"
+      ]
+    },
+    {
+      "start_date": "2026-04-24",
+      "end_date": "2026-04-26",
+      "length_days": 3,
+      "holiday_name": "Birthday of the Sultan of Terengganu",
+      "states": [
+        "Terengganu"
+      ]
+    },
+    {
+      "start_date": "2026-05-15",
+      "end_date": "2026-05-17",
+      "length_days": 3,
+      "holiday_name": "Birthday of the Raja of Perlis",
+      "states": [
+        "Perlis"
+      ]
+    },
+    {
+      "start_date": "2026-05-28",
+      "end_date": "2026-05-30",
+      "length_days": 3,
+      "holiday_name": "Hari Raya Haji Holiday",
+      "states": [
+        "Kedah",
+        "Kelantan",
+        "Perlis",
+        "Terengganu"
+      ]
+    },
+    {
+      "start_date": "2026-05-29",
+      "end_date": "2026-05-31",
+      "length_days": 3,
+      "holiday_name": "Birthday of the Governor of Sabah + Pesta Kaamatan",
+      "states": [
+        "Sabah"
+      ]
+    },
+    {
+      "start_date": "2026-06-04",
+      "end_date": "2026-06-06",
+      "length_days": 3,
+      "holiday_name": "Gawai Dayak (in lieu)",
+      "states": [
+        "Sarawak"
+      ]
+    },
+    {
+      "start_date": "2026-06-19",
+      "end_date": "2026-06-21",
+      "length_days": 3,
+      "holiday_name": "Birthday of the Sultan of Kedah",
+      "states": [
+        "Kedah"
+      ]
+    },
+    {
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-08",
+      "length_days": 3,
+      "holiday_name": "Deepavali",
+      "states": [
+        "Johor",
+        "Kedah",
+        "Kelantan",
+        "Kuala Lumpur",
+        "Labuan",
+        "Melaka",
+        "Negeri Sembilan",
+        "Pahang",
+        "Penang",
+        "Perak",
+        "Perlis",
+        "Putrajaya",
+        "Sabah",
+        "Selangor",
+        "Terengganu"
+      ]
+    },
+    {
+      "start_date": "2026-12-24",
+      "end_date": "2026-12-26",
+      "length_days": 3,
+      "holiday_name": "Christmas Eve",
+      "states": [
+        "Sabah"
+      ]
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import hashlib
 import requests
 import json
 import datetime
@@ -139,5 +140,244 @@ def fetch(year=None):
     return out_file
 
 
+def export_ics(year=None, states=None):
+    """Export holidays as an ICS calendar file.
+
+    Args:
+        year: Year to export. Defaults to current year.
+        states: Optional list of state names to filter by. If None, exports all holidays.
+    """
+    year = year or datetime.datetime.now(datetime.UTC).year
+    json_file = f"malaysia_holidays_{year}.json"
+    with open(json_file, encoding="utf-8") as f:
+        data = json.load(f)
+
+    holidays = data["holidays"]
+    if states:
+        states_set = set(states)
+        holidays = [
+            h for h in holidays
+            if h["type"] == "National" or (h.get("states") and states_set & set(h["states"]))
+        ]
+
+    lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//Malaysia Holidays//EN",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
+    ]
+
+    for h in holidays:
+        date_str = h["date"]
+        if not date_str:
+            continue
+        date_val = datetime.date.fromisoformat(date_str)
+        next_day = date_val + datetime.timedelta(days=1)
+
+        description = h["type"]
+        if h.get("states"):
+            description += f" — {', '.join(h['states'])}"
+        if h.get("description"):
+            description += f" — {h['description']}"
+
+        uid = f"malaysia-holidays-{year}-{date_str}-{hashlib.md5(h['holiday_name'].encode()).hexdigest()[:8]}"
+
+        lines.extend([
+            "BEGIN:VEVENT",
+            f"DTSTART;VALUE=DATE:{date_str.replace('-', '')}",
+            f"DTEND;VALUE=DATE:{next_day.strftime('%Y%m%d')}",
+            f"SUMMARY:{h['holiday_name']}",
+            f"DESCRIPTION:{description}",
+            f"UID:{uid}",
+            "STATUS:CONFIRMED",
+            "END:VEVENT",
+        ])
+
+    lines.append("END:VCALENDAR")
+
+    suffix = f"_{'-'.join(states)}" if states else ""
+    out_file = f"malaysia_holidays_{year}{suffix}.ics"
+    with open(out_file, "w", encoding="utf-8") as f:
+        f.write("\r\n".join(lines) + "\r\n")
+
+    print(f"ICS exported to {out_file}")
+    return out_file
+
+
+FRI_SAT_STATES = {"Kedah", "Kelantan", "Terengganu"}
+SAT_SUN_STATES = set(ALL_STATES) - FRI_SAT_STATES
+
+
+def long_weekends(year=None):
+    """Detect long weekends (holidays adjacent to Sat-Sun or Fri-Sat weekends).
+
+    Returns two lists: one for Sat-Sun states, one for Fri-Sat states.
+    Each long weekend is a dict with start_date, end_date, length_days, holiday_name, states.
+    """
+    year = year or datetime.datetime.now(datetime.UTC).year
+    json_file = f"malaysia_holidays_{year}.json"
+    with open(json_file, encoding="utf-8") as f:
+        data = json.load(f)
+
+    holiday_dates = {}
+    for h in data["holidays"]:
+        if not h["date"]:
+            continue
+        d = datetime.date.fromisoformat(h["date"])
+        holiday_dates[d] = h
+
+    results_sat_sun = []
+    results_fri_sat = []
+
+    def is_holiday(d):
+        return d in holiday_dates
+
+    def holiday_states(d):
+        h = holiday_dates.get(d)
+        if not h:
+            return None
+        if h["type"] == "National":
+            return ALL_STATES
+        return h.get("states")
+
+    for date_val in sorted(holiday_dates.keys()):
+        h = holiday_dates[date_val]
+        weekday = date_val.weekday()  # Mon=0, Sun=6
+
+        # --- Sat-Sun states logic ---
+        if weekday == 0:  # Monday
+            # Sat-Mon 3-day weekend
+            results_sat_sun.append({
+                "start_date": (date_val - datetime.timedelta(days=2)).isoformat(),
+                "end_date": date_val.isoformat(),
+                "length_days": 3,
+                "holiday_name": h["holiday_name"],
+                "states": holiday_states(date_val),
+            })
+        elif weekday == 4:  # Friday
+            # Fri-Sun 3-day weekend
+            results_sat_sun.append({
+                "start_date": date_val.isoformat(),
+                "end_date": (date_val + datetime.timedelta(days=2)).isoformat(),
+                "length_days": 3,
+                "holiday_name": h["holiday_name"],
+                "states": holiday_states(date_val),
+            })
+        elif weekday == 5:  # Saturday
+            # Sat-Sun weekend already, check if Sunday is also a holiday for 3-day
+            sun = date_val + datetime.timedelta(days=1)
+            if is_holiday(sun):
+                # Sat-Mon (if Monday also holiday)
+                mon = date_val + datetime.timedelta(days=2)
+                if is_holiday(mon):
+                    results_sat_sun.append({
+                        "start_date": date_val.isoformat(),
+                        "end_date": mon.isoformat(),
+                        "length_days": 3,
+                        "holiday_name": f"{h['holiday_name']} + {holiday_dates[sun]['holiday_name']} + {holiday_dates[mon]['holiday_name']}",
+                        "states": holiday_states(date_val),
+                    })
+        elif weekday == 6:  # Sunday
+            # Sun itself is a holiday — check if Monday is also for a 2+ day extension
+            mon = date_val + datetime.timedelta(days=1)
+            if is_holiday(mon):
+                results_sat_sun.append({
+                    "start_date": (date_val - datetime.timedelta(days=1)).isoformat(),
+                    "end_date": mon.isoformat(),
+                    "length_days": 3,
+                    "holiday_name": f"{h['holiday_name']} + {holiday_dates[mon]['holiday_name']}",
+                    "states": holiday_states(date_val),
+                })
+
+        # --- Fri-Sat states logic ---
+        if weekday == 6:  # Sunday
+            # Fri-Sat-Sun: Sun is the "Friday" equivalent for Fri-Sat states
+            # Actually for Fri-Sat: weekend is Fri+Sat, so Sunday holiday adjacent to Sat
+            # Sun alone after Sat = 3-day (Fri-Sun)
+            results_fri_sat.append({
+                "start_date": (date_val - datetime.timedelta(days=2)).isoformat(),
+                "end_date": date_val.isoformat(),
+                "length_days": 3,
+                "holiday_name": h["holiday_name"],
+                "states": holiday_states(date_val),
+            })
+        elif weekday == 3:  # Thursday
+            # Thu-Sat: 3-day weekend for Fri-Sat states
+            results_fri_sat.append({
+                "start_date": date_val.isoformat(),
+                "end_date": (date_val + datetime.timedelta(days=2)).isoformat(),
+                "length_days": 3,
+                "holiday_name": h["holiday_name"],
+                "states": holiday_states(date_val),
+            })
+        elif weekday == 4:  # Friday
+            # Friday is weekend day for Fri-Sat states — if Thu is also holiday, that's 4-day
+            thu = date_val - datetime.timedelta(days=1)
+            if is_holiday(thu):
+                results_fri_sat.append({
+                    "start_date": thu.isoformat(),
+                    "end_date": (date_val + datetime.timedelta(days=1)).isoformat(),
+                    "length_days": 4,
+                    "holiday_name": f"{holiday_dates[thu]['holiday_name']} + {h['holiday_name']}",
+                    "states": holiday_states(date_val),
+                })
+            else:
+                # Fri-Sat is the regular weekend, no extra day unless adjacent
+                pass
+        elif weekday == 5:  # Saturday
+            # Saturday is weekend — check if Sunday is also a holiday for Fri-Sat states
+            sun = date_val + datetime.timedelta(days=1)
+            if is_holiday(sun):
+                results_fri_sat.append({
+                    "start_date": (date_val - datetime.timedelta(days=1)).isoformat(),
+                    "end_date": sun.isoformat(),
+                    "length_days": 3,
+                    "holiday_name": f"{h['holiday_name']} + {holiday_dates[sun]['holiday_name']}",
+                    "states": holiday_states(date_val),
+                })
+
+    # Deduplicate and sort
+    def dedupe(results):
+        seen = set()
+        out = []
+        for r in results:
+            key = (r["start_date"], r["end_date"])
+            if key not in seen:
+                seen.add(key)
+                out.append(r)
+        return sorted(out, key=lambda x: x["start_date"])
+
+    results_sat_sun = dedupe(results_sat_sun)
+    results_fri_sat = dedupe(results_fri_sat)
+
+    results = {
+        "year": year,
+        "sat_sun_states": sorted(SAT_SUN_STATES),
+        "fri_sat_states": sorted(FRI_SAT_STATES),
+        "sat_sun": results_sat_sun,
+        "fri_sat": results_fri_sat,
+    }
+
+    out_file = f"malaysia_holidays_{year}_long_weekends.json"
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
+    print(f"\n=== Long Weekends {year} (Sat-Sun states: {', '.join(sorted(SAT_SUN_STATES))}) ===")
+    for lw in results_sat_sun:
+        states_str = ", ".join(lw["states"]) if lw["states"] else "varies"
+        print(f"  {lw['start_date']} to {lw['end_date']} ({lw['length_days']} days) — {lw['holiday_name']} [{states_str}]")
+
+    print(f"\n=== Long Weekends {year} (Fri-Sat states: {', '.join(sorted(FRI_SAT_STATES))}) ===")
+    for lw in results_fri_sat:
+        states_str = ", ".join(lw["states"]) if lw["states"] else "varies"
+        print(f"  {lw['start_date']} to {lw['end_date']} ({lw['length_days']} days) — {lw['holiday_name']} [{states_str}]")
+
+    print(f"Long weekends saved to {out_file}")
+    return out_file
+
+
 if __name__ == "__main__":
     fetch()
+    export_ics()
+    long_weekends()
