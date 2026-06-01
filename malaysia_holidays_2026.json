@@ -262,6 +262,14 @@
       ]
     },
     {
+      "date": "2026-05-25",
+      "holiday_name": "Public Holiday",
+      "type": "Regional",
+      "states": [
+        "Johor"
+      ]
+    },
+    {
       "date": "2026-05-26",
       "holiday_name": "Arafat (Haj) Day",
       "type": "Regional",
@@ -364,7 +372,7 @@
       "description": "Hijri New Year"
     },
     {
-      "date": "2026-06-21",
+      "date": "2026-07-05",
       "holiday_name": "Birthday of the Sultan of Kedah",
       "type": "Regional",
       "states": [
