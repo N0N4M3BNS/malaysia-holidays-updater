@@ -396,6 +396,14 @@
       ]
     },
     {
+      "date": "2026-07-13",
+      "holiday_name": "Public Holiday",
+      "type": "Regional",
+      "states": [
+        "Johor"
+      ]
+    },
+    {
       "date": "2026-07-21",
       "holiday_name": "The Sultan of Johor Hol",
       "type": "Regional",
